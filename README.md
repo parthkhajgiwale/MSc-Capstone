@@ -1,6 +1,6 @@
 # QUIC Network Traffic Classification
 
-This project focuses on QUIC network traffic classification using machine learning and deep learning.
+This project focuses on QUIC network traffic classification using deep learning.
 
 ## Dataset
 
@@ -8,13 +8,16 @@ The main dataset used for training is the UCDavis QUIC dataset:
 
 https://www.kaggle.com/datasets/guillaumefraysse/ucdavisquic
 
-## Scripts
+## Files
 
 `AICS 2026.py`  
 Training script using the UCDavis QUIC dataset.
 
+`ucdavis_model.pt`  
+Trained model obtained from the UCDavis QUIC dataset.
+
 `CESNET_TL`  
-Transfer learning script that uses the model trained on the UCDavis QUIC dataset and applies transfer learning on the CESNET dataset.
+Transfer learning script that uses the UCDavis-trained model and applies transfer learning on the CESNET dataset.
 
 ## Features
 
